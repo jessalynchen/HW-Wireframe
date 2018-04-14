@@ -1,0 +1,88 @@
+header, nav{
+    padding: 30px;
+    margin-bottom:30px;
+    color: #777;
+    text-align: center;
+    background: #ebebeb;
+    }
+
+/*footer remains at the bottom*/
+footer{
+    padding: 30px;
+    margin-bottom: 30px;
+    color: #777;
+    text-align: center;
+    background: #ebebeb;
+    width: 900px;   
+    position: fixed;
+    bottom: 50px;
+    }
+
+aside {
+    padding: 30px 10px 10px 10px;
+    right: 10px;
+    text-align: center;
+    background:  #ebebeb;
+    width: 415px;
+    height: 160px;
+    float: right;
+    }
+
+section{
+    padding: 30px 10px 10px 10px;
+    text-align: center;
+    background-color:#ebebeb;
+    width: 485px;
+    height: 160px; 
+    float: left;
+    }
+
+/*bring forward*/
+article{
+    padding: 10px 10px 0px 10px; 
+    margin-left: auto;
+    margin-right: auto;
+    color:#ebebeb;
+    text-align: center;
+    background-color: #777;
+    width: 450px;
+    height: 120px;   
+    z-index: 1;
+    }
+
+/*bring to front*/
+.heading{
+    padding: 5px 10x 500px 10px;
+    color: #777;
+    height: 30px;
+    width: 450px;
+    background: #ebebeb;
+    text-align: center;
+    position: relative;
+    bottom: 85px;
+    left: 17px;
+    z-index: 2;
+    }
+
+/*bring to front*/
+.paragraph{
+    padding: 5px 0px 0px 0px;color: #777;   
+    margin: auto;
+    background: #ebebeb;
+    height: 25px;
+    width: 450px;
+    position: relative;
+    left: -0.5px;
+    text-align: center;
+    bottom: 100px;
+    z-index: 2; 
+    }  
+
+/*whole page is dark grey, same text*/
+Body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    }
